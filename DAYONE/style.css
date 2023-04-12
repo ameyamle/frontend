@@ -1,0 +1,25 @@
+/*ID*/
+#h1{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+#h2{
+    color:blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 1000;
+}
+/*CLASS*/
+.pass{
+    color: red;
+}
+body{
+    border: solid slateblue 5px;
+}
+/*GROUPING SELECTOR*/
+.security,#h1,#h2{
+    background-color: azure;
+}
+/*UNIVERSAL SELECTOR*/
+*{
+    font-style: italic;
+}

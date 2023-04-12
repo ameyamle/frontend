@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>Learning HTML</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        h4{
+            color:brown;
+        }
+    </style>
+
+</head>
+
+<body>
+    <form>
+        <h1 style="color: green;">Registration</h1>
+        <label for="name" id="h1">First Name:</label>
+        <input type="text" name="fname" id="fname" placeholder="Enter your first name" required>
+        <br><br>
+        <label for="name" id="h2">Last Name:</label>
+        <input type="text" name="lname" id="lname" placeholder="Enter your last name">
+        <br><br>
+        <label for="password" class="pass">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Enter password">
+        <br><br>
+        <h4>Enter the gender:</h4>
+        <input type="radio" name="gender" value="male" id="option1">
+        <label for="option11">Male</label>
+        <br>
+        <input type="radio" name="gender" value="female" id="option2">
+        <label for="option2">Female</label>
+        <br><br>
+        <label for="security" class="security">Security Question</label>
+        <select name="security" id="security">
+            <option value="op1">What is your first bike/car number?</option>
+            <option value="op2">What is your favourite place?</option>
+            <option value="op3">What is your brand of first smartphone?</option>
+        </select>
+        <br><br>
+
+        <input type="submit" value="SUBMIT">
+    </form>
+</body>
+
+</html>
